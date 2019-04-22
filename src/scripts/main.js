@@ -1,3 +1,3 @@
-import { API } from "modules/API";
+import API from "./modules/API.js";
 
 alert("bounce");
