@@ -1,9 +1,6 @@
-export class API {
-  constructor(url) {
-    this.url = url,
-    this.fetchJson = function() {
-      return fetch(this.url)
+module.exports.API = {
+  fetchLocalJson: function (endpoint) {
+    return fetch(`http://localhost:8088/${endpoint}`)
         .then(response => response.json());
-    };
   }
-}
+};
