@@ -63,5 +63,6 @@ $RECYCLE.BIN/
 #  ******************************************
 
 node_modules/**/*
-dist/**/*
+src/bundle.js
+src/styles.css
 env/*
