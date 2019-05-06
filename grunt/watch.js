@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   scripts: {
     files: ["src/scripts/**/*.js"],
-    tasks: ["eslint"],
+    tasks: ["eslint", "browserify"],
     options: {
       spawn: false,
       debounceDelay: 500,
